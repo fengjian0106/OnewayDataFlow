@@ -1,0 +1,6 @@
+framework module Pods_OnewayDataFlow {
+  umbrella header "Pods-OnewayDataFlow-umbrella.h"
+
+  export *
+  module * { export * }
+}

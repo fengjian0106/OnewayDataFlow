@@ -1,0 +1,29 @@
+PODS:
+  - CocoaLumberjack (2.0.3):
+    - CocoaLumberjack/Default (= 2.0.3)
+    - CocoaLumberjack/Extensions (= 2.0.3)
+  - CocoaLumberjack/Core (2.0.3)
+  - CocoaLumberjack/Default (2.0.3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.3):
+    - CocoaLumberjack/Default
+  - Masonry (0.6.3)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - CocoaLumberjack (~> 2.0.0)
+  - Masonry (~> 0.6.1)
+  - ReactiveCocoa (~> 2)
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+COCOAPODS: 0.39.0

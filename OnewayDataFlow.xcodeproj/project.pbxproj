@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A58BF1E6F260AE0D97A2437 /* Pods_OnewayDataFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77920BCBF661B7167CF92E84 /* Pods_OnewayDataFlow.framework */; };
+		5ABDB48D1BD39C990063450C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDB48C1BD39C990063450C /* main.m */; };
+		5ABDB4901BD39C9A0063450C /* ODFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDB48F1BD39C9A0063450C /* ODFAppDelegate.m */; };
+		5ABDB4981BD39C9A0063450C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABDB4971BD39C9A0063450C /* Assets.xcassets */; };
+		5ABDB49B1BD39C9A0063450C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABDB4991BD39C9A0063450C /* LaunchScreen.storyboard */; };
+		5ABDB4A61BD39C9A0063450C /* OnewayDataFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDB4A51BD39C9A0063450C /* OnewayDataFlowTests.m */; };
+		5ABDB4B11BD39C9A0063450C /* OnewayDataFlowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDB4B01BD39C9A0063450C /* OnewayDataFlowUITests.m */; };
+		5ABDB4C01BD3A0F60063450C /* ODFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDB4BF1BD3A0F60063450C /* ODFViewController.m */; };
+		5ABDB4C31BD3A1A50063450C /* ODFViewControllerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDB4C21BD3A1A50063450C /* ODFViewControllerViewModel.m */; };
+		5ABDB4C61BD3A7830063450C /* ODFCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDB4C51BD3A7830063450C /* ODFCounter.m */; };
+		5ABDB4C91BD3A8C20063450C /* ODFFooStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDB4C81BD3A8C20063450C /* ODFFooStore.m */; };
+		5ABDB4CC1BD48E460063450C /* ODFFooStoreObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDB4CB1BD48E460063450C /* ODFFooStoreObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ABDB4A21BD39C9A0063450C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABDB4801BD39C990063450C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABDB4871BD39C990063450C;
+			remoteInfo = OnewayDataFlow;
+		};
+		5ABDB4AD1BD39C9A0063450C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABDB4801BD39C990063450C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABDB4871BD39C990063450C;
+			remoteInfo = OnewayDataFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F869BEDCB420034E63FC9F6 /* Pods-OnewayDataFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnewayDataFlow.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnewayDataFlow/Pods-OnewayDataFlow.release.xcconfig"; sourceTree = "<group>"; };
+		5ABDB4881BD39C990063450C /* OnewayDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnewayDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABDB48C1BD39C990063450C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ABDB48E1BD39C9A0063450C /* ODFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODFAppDelegate.h; sourceTree = "<group>"; };
+		5ABDB48F1BD39C9A0063450C /* ODFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODFAppDelegate.m; sourceTree = "<group>"; };
+		5ABDB4971BD39C9A0063450C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ABDB49A1BD39C9A0063450C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ABDB49C1BD39C9A0063450C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABDB4A11BD39C9A0063450C /* OnewayDataFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnewayDataFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABDB4A51BD39C9A0063450C /* OnewayDataFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnewayDataFlowTests.m; sourceTree = "<group>"; };
+		5ABDB4A71BD39C9A0063450C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABDB4AC1BD39C9A0063450C /* OnewayDataFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnewayDataFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABDB4B01BD39C9A0063450C /* OnewayDataFlowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnewayDataFlowUITests.m; sourceTree = "<group>"; };
+		5ABDB4B21BD39C9A0063450C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABDB4BE1BD3A0F60063450C /* ODFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODFViewController.h; sourceTree = "<group>"; };
+		5ABDB4BF1BD3A0F60063450C /* ODFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODFViewController.m; sourceTree = "<group>"; };
+		5ABDB4C11BD3A1A50063450C /* ODFViewControllerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODFViewControllerViewModel.h; sourceTree = "<group>"; };
+		5ABDB4C21BD3A1A50063450C /* ODFViewControllerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODFViewControllerViewModel.m; sourceTree = "<group>"; };
+		5ABDB4C41BD3A7830063450C /* ODFCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODFCounter.h; sourceTree = "<group>"; };
+		5ABDB4C51BD3A7830063450C /* ODFCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODFCounter.m; sourceTree = "<group>"; };
+		5ABDB4C71BD3A8C20063450C /* ODFFooStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODFFooStore.h; sourceTree = "<group>"; };
+		5ABDB4C81BD3A8C20063450C /* ODFFooStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODFFooStore.m; sourceTree = "<group>"; };
+		5ABDB4CA1BD48E460063450C /* ODFFooStoreObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODFFooStoreObserver.h; sourceTree = "<group>"; };
+		5ABDB4CB1BD48E460063450C /* ODFFooStoreObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODFFooStoreObserver.m; sourceTree = "<group>"; };
+		77920BCBF661B7167CF92E84 /* Pods_OnewayDataFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnewayDataFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A970A75874D93ED347806D3A /* Pods-OnewayDataFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnewayDataFlow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnewayDataFlow/Pods-OnewayDataFlow.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ABDB4851BD39C990063450C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A58BF1E6F260AE0D97A2437 /* Pods_OnewayDataFlow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABDB49E1BD39C9A0063450C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABDB4A91BD39C9A0063450C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ABDB47F1BD39C990063450C = {
+			isa = PBXGroup;
+			children = (
+				5ABDB48A1BD39C990063450C /* OnewayDataFlow */,
+				5ABDB4A41BD39C9A0063450C /* OnewayDataFlowTests */,
+				5ABDB4AF1BD39C9A0063450C /* OnewayDataFlowUITests */,
+				5ABDB4891BD39C990063450C /* Products */,
+				6B03015D57EB4EBC6DA40168 /* Pods */,
+				86F1D615AC2957C9AE8B8F93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5ABDB4891BD39C990063450C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ABDB4881BD39C990063450C /* OnewayDataFlow.app */,
+				5ABDB4A11BD39C9A0063450C /* OnewayDataFlowTests.xctest */,
+				5ABDB4AC1BD39C9A0063450C /* OnewayDataFlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ABDB48A1BD39C990063450C /* OnewayDataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				5ABDB48E1BD39C9A0063450C /* ODFAppDelegate.h */,
+				5ABDB48F1BD39C9A0063450C /* ODFAppDelegate.m */,
+				5ABDB4BE1BD3A0F60063450C /* ODFViewController.h */,
+				5ABDB4BF1BD3A0F60063450C /* ODFViewController.m */,
+				5ABDB4C11BD3A1A50063450C /* ODFViewControllerViewModel.h */,
+				5ABDB4C21BD3A1A50063450C /* ODFViewControllerViewModel.m */,
+				5ABDB4C41BD3A7830063450C /* ODFCounter.h */,
+				5ABDB4C51BD3A7830063450C /* ODFCounter.m */,
+				5ABDB4C71BD3A8C20063450C /* ODFFooStore.h */,
+				5ABDB4C81BD3A8C20063450C /* ODFFooStore.m */,
+				5ABDB4CA1BD48E460063450C /* ODFFooStoreObserver.h */,
+				5ABDB4CB1BD48E460063450C /* ODFFooStoreObserver.m */,
+				5ABDB4971BD39C9A0063450C /* Assets.xcassets */,
+				5ABDB4991BD39C9A0063450C /* LaunchScreen.storyboard */,
+				5ABDB49C1BD39C9A0063450C /* Info.plist */,
+				5ABDB48B1BD39C990063450C /* Supporting Files */,
+			);
+			path = OnewayDataFlow;
+			sourceTree = "<group>";
+		};
+		5ABDB48B1BD39C990063450C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ABDB48C1BD39C990063450C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ABDB4A41BD39C9A0063450C /* OnewayDataFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ABDB4A51BD39C9A0063450C /* OnewayDataFlowTests.m */,
+				5ABDB4A71BD39C9A0063450C /* Info.plist */,
+			);
+			path = OnewayDataFlowTests;
+			sourceTree = "<group>";
+		};
+		5ABDB4AF1BD39C9A0063450C /* OnewayDataFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ABDB4B01BD39C9A0063450C /* OnewayDataFlowUITests.m */,
+				5ABDB4B21BD39C9A0063450C /* Info.plist */,
+			);
+			path = OnewayDataFlowUITests;
+			sourceTree = "<group>";
+		};
+		6B03015D57EB4EBC6DA40168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A970A75874D93ED347806D3A /* Pods-OnewayDataFlow.debug.xcconfig */,
+				2F869BEDCB420034E63FC9F6 /* Pods-OnewayDataFlow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86F1D615AC2957C9AE8B8F93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77920BCBF661B7167CF92E84 /* Pods_OnewayDataFlow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ABDB4871BD39C990063450C /* OnewayDataFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABDB4B51BD39C9A0063450C /* Build configuration list for PBXNativeTarget "OnewayDataFlow" */;
+			buildPhases = (
+				6EAD1CD9DCD4C1E09029C1E5 /* Check Pods Manifest.lock */,
+				5ABDB4841BD39C990063450C /* Sources */,
+				5ABDB4851BD39C990063450C /* Frameworks */,
+				5ABDB4861BD39C990063450C /* Resources */,
+				A36A8687ECF8A84CD1EC56B0 /* Embed Pods Frameworks */,
+				0AE413ACCFB0A592E0125C59 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnewayDataFlow;
+			productName = OnewayDataFlow;
+			productReference = 5ABDB4881BD39C990063450C /* OnewayDataFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ABDB4A01BD39C9A0063450C /* OnewayDataFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABDB4B81BD39C9A0063450C /* Build configuration list for PBXNativeTarget "OnewayDataFlowTests" */;
+			buildPhases = (
+				5ABDB49D1BD39C9A0063450C /* Sources */,
+				5ABDB49E1BD39C9A0063450C /* Frameworks */,
+				5ABDB49F1BD39C9A0063450C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABDB4A31BD39C9A0063450C /* PBXTargetDependency */,
+			);
+			name = OnewayDataFlowTests;
+			productName = OnewayDataFlowTests;
+			productReference = 5ABDB4A11BD39C9A0063450C /* OnewayDataFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ABDB4AB1BD39C9A0063450C /* OnewayDataFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABDB4BB1BD39C9A0063450C /* Build configuration list for PBXNativeTarget "OnewayDataFlowUITests" */;
+			buildPhases = (
+				5ABDB4A81BD39C9A0063450C /* Sources */,
+				5ABDB4A91BD39C9A0063450C /* Frameworks */,
+				5ABDB4AA1BD39C9A0063450C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABDB4AE1BD39C9A0063450C /* PBXTargetDependency */,
+			);
+			name = OnewayDataFlowUITests;
+			productName = OnewayDataFlowUITests;
+			productReference = 5ABDB4AC1BD39C9A0063450C /* OnewayDataFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ABDB4801BD39C990063450C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = fengjian;
+				TargetAttributes = {
+					5ABDB4871BD39C990063450C = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 78MZBHN5NS;
+					};
+					5ABDB4A01BD39C9A0063450C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5ABDB4871BD39C990063450C;
+					};
+					5ABDB4AB1BD39C9A0063450C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5ABDB4871BD39C990063450C;
+					};
+				};
+			};
+			buildConfigurationList = 5ABDB4831BD39C990063450C /* Build configuration list for PBXProject "OnewayDataFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ABDB47F1BD39C990063450C;
+			productRefGroup = 5ABDB4891BD39C990063450C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ABDB4871BD39C990063450C /* OnewayDataFlow */,
+				5ABDB4A01BD39C9A0063450C /* OnewayDataFlowTests */,
+				5ABDB4AB1BD39C9A0063450C /* OnewayDataFlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ABDB4861BD39C990063450C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABDB49B1BD39C9A0063450C /* LaunchScreen.storyboard in Resources */,
+				5ABDB4981BD39C9A0063450C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABDB49F1BD39C9A0063450C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABDB4AA1BD39C9A0063450C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AE413ACCFB0A592E0125C59 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnewayDataFlow/Pods-OnewayDataFlow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EAD1CD9DCD4C1E09029C1E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A36A8687ECF8A84CD1EC56B0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnewayDataFlow/Pods-OnewayDataFlow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ABDB4841BD39C990063450C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABDB4C61BD3A7830063450C /* ODFCounter.m in Sources */,
+				5ABDB4C91BD3A8C20063450C /* ODFFooStore.m in Sources */,
+				5ABDB4901BD39C9A0063450C /* ODFAppDelegate.m in Sources */,
+				5ABDB4C01BD3A0F60063450C /* ODFViewController.m in Sources */,
+				5ABDB48D1BD39C990063450C /* main.m in Sources */,
+				5ABDB4CC1BD48E460063450C /* ODFFooStoreObserver.m in Sources */,
+				5ABDB4C31BD3A1A50063450C /* ODFViewControllerViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABDB49D1BD39C9A0063450C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABDB4A61BD39C9A0063450C /* OnewayDataFlowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABDB4A81BD39C9A0063450C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABDB4B11BD39C9A0063450C /* OnewayDataFlowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ABDB4A31BD39C9A0063450C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABDB4871BD39C990063450C /* OnewayDataFlow */;
+			targetProxy = 5ABDB4A21BD39C9A0063450C /* PBXContainerItemProxy */;
+		};
+		5ABDB4AE1BD39C9A0063450C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABDB4871BD39C990063450C /* OnewayDataFlow */;
+			targetProxy = 5ABDB4AD1BD39C9A0063450C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ABDB4991BD39C9A0063450C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ABDB49A1BD39C9A0063450C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ABDB4B31BD39C9A0063450C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ABDB4B41BD39C9A0063450C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ABDB4B61BD39C9A0063450C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A970A75874D93ED347806D3A /* Pods-OnewayDataFlow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OnewayDataFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengjian.OnewayDataFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5ABDB4B71BD39C9A0063450C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F869BEDCB420034E63FC9F6 /* Pods-OnewayDataFlow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OnewayDataFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengjian.OnewayDataFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5ABDB4B91BD39C9A0063450C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnewayDataFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengjian.OnewayDataFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnewayDataFlow.app/OnewayDataFlow";
+			};
+			name = Debug;
+		};
+		5ABDB4BA1BD39C9A0063450C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnewayDataFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengjian.OnewayDataFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnewayDataFlow.app/OnewayDataFlow";
+			};
+			name = Release;
+		};
+		5ABDB4BC1BD39C9A0063450C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OnewayDataFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengjian.OnewayDataFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OnewayDataFlow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5ABDB4BD1BD39C9A0063450C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OnewayDataFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengjian.OnewayDataFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OnewayDataFlow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ABDB4831BD39C990063450C /* Build configuration list for PBXProject "OnewayDataFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABDB4B31BD39C9A0063450C /* Debug */,
+				5ABDB4B41BD39C9A0063450C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABDB4B51BD39C9A0063450C /* Build configuration list for PBXNativeTarget "OnewayDataFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABDB4B61BD39C9A0063450C /* Debug */,
+				5ABDB4B71BD39C9A0063450C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABDB4B81BD39C9A0063450C /* Build configuration list for PBXNativeTarget "OnewayDataFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABDB4B91BD39C9A0063450C /* Debug */,
+				5ABDB4BA1BD39C9A0063450C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABDB4BB1BD39C9A0063450C /* Build configuration list for PBXNativeTarget "OnewayDataFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABDB4BC1BD39C9A0063450C /* Debug */,
+				5ABDB4BD1BD39C9A0063450C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ABDB4801BD39C990063450C /* Project object */;
+}
